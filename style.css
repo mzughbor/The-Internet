@@ -74,13 +74,14 @@ main {
 }
 
 .on-top p:first-child {
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 12px;
 }
 
 .on-top p:nth-last-of-type(1) {
     margin-bottom: 18px;
     font-weight: 600;
+    font-size: 15px;
 }
 
 .button {
