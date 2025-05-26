@@ -1,0 +1,171 @@
+* {
+    vertical-align: baseline;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* the page container is body*/
+body {
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 8px;
+    position: relative;
+    top: 15px;
+}
+
+.main-logo {
+    width: 82px;
+}
+
+nav {
+    height: 70px;
+    background: linear-gradient(0, #306DA3ff, #306da3ad, #306DA3ff);
+}
+
+h1 {
+    font-size: 36px;
+    color: #504b4b;
+    font-weight: 500;
+}
+
+nav>h1 {
+    color: #ffffff;
+    font-size: 36px;
+    padding: 15px 25px;
+}
+
+.color-blue {
+    color: #306DA3ff;
+    font-weight: 600;
+}
+
+.color-red {
+    color: red;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    align-items: start;
+    gap: 5%;
+    background: linear-gradient(0deg, #ffffff00, 60%, #ffffff91, 70%, #858f8e1a);
+}
+
+.on-top {
+    margin: 25px 5px;
+}
+
+.on-top p:first-child {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.on-top p:nth-last-of-type(1) {
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.button {
+    display: inline-block;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #725d5d8f;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: larger;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.first {
+    background-color: #306DA3;
+}
+
+.second {
+    background-color: #e6750c;
+}
+
+.on-top button:nth-last-of-type(1) {
+    margin-bottom: 10px
+}
+
+hr {
+    border-style: inset;
+    border-width: 1px;
+}
+
+aside {
+    flex: 1;
+}
+
+section {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.home-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.phone-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.header-main-section,
+.home-dns,
+.reach-us-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header-main-section {
+    margin-bottom: 10px;
+}
+
+.home-dns {
+    margin-top: 8px;
+}
+
+.reach-us-area {
+    align-items: center;
+}
+
+small {
+    color: #504b4b;
+}
+
+.phone-number {
+    font-size: 28px;
+    font-weight: 600;
+    color: #04aeda;
+    margin: -3px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #306DA3;
+    margin: 10px 0;
+}
