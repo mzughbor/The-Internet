@@ -7,8 +7,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -27,11 +26,17 @@
                     <button class="second button">More Resourse</button>
                 </div>
                 <hr>
-                <div>
-                    <img src="" alt="">
-                    <h3>Reinvent your career in just 14 weeks</h3>
-                    <img src="" alt="">
-                    <button>Learn More </button>
+                <div class="aside-card">
+                    <h3 class="card-title">Reinvent your career in just 14 weeks</h3>
+                    <img class="card-image" src="images/ninja.png" alt="ninja-image">
+                    <button class="card-button button">
+                        Learn More
+                        <div class="next-icons-container">
+                            <img class="icon-next" src="images/next.png" alt="next-icon">
+                            <img class="icon-next" src="images/next.png" alt="next-icon">
+                            <img class="icon-next" src="images/next.png" alt="next-icon">
+                        </div>
+                    </button>
                 </div>
             </aside>
             <section>
@@ -51,19 +56,27 @@
                 </div>
                 <hr>
                 <h2>Clients and Servers</h2>            
-                <p>Computers connected to the Web are called clients and servers.</p>
+                <p>Computers connected to the <span class="light-blue">Web</span> are called <span class="p-bold">clients</span> and <span class="p-bold">servers</span>.</p>
                 <ul>
-                    <li>Clients are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and Web-accessing software available on those devices (usually a web browser like Firefox or Chrome).</li>
-                    <li>Servers are computers that store webpages, sites, or apps. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                    <li><p><span class="light-blue">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="light-blue">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</p></li>
+                    <li><p><span class="light-blue">Servers</span> are computers that store <span class="light-blue">webpages</span>, <span class="light-blue">sites</span>, or <span class="light-blue">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</p></li>
                 </ul>
-                <img src="" alt="">
+                <img class="client-server" src="images/client_server.jpg" alt="client-server-image">
                 <h2>So What Actually Happens?</h2>
-                <ul>
-                    <li>The browser goes to the DNS server and finds the real address of the server that the website lives on.</li>
-                    <li>The browser sends an HTTP request message to the server asking it to send a copy of the website to the client.</li>
-                    <li>If the server approves the client's request, the server sends the client a "200 OK" message, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
-                    <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
-                </ul>
+                <ol>
+                    <li><p>The browser goes to the <span class="light-blue">DNS server</span> and finds the real address of the <span class="light-blue">server</span> that the website lives on.</p></li>
+                    <li><p>The browser sends an <span class="light-blue">HTTP request</span> message to the server asking it to send a copy of the website to the client.</p></li>
+                    <li><p>If the server approves the client's request, the server sends the client a <span class="light-blue">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</p></li>
+                    <li><p>The browser assembles the small chunks into a complete website and displays it to you!</p></li>
+                </ol>
+                <div class="html-css-js">
+                    <img class="htmlcssjs-img" src="images/html.png" alt="html-css-js-image">
+                    <div class="contact-area">
+                        <h2>The Big 3 - HTML, CSS, JavaScript</h2>
+                        <p class="main-p-content">While the server can process information in many different languages, the files that they serve to the client are always going to be some combination of HTML, CSS, and JavaScript!</p>
+                        <p>Learn more about the Big 3 <span class="light-blue"><a href="#">here</span>!</p>
+                    </div>
+                </div>
             </section>
         </main>
     </body>

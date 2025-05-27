@@ -6,7 +6,7 @@
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 320;
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
@@ -14,6 +14,12 @@
 a {
     text-decoration: none;
     color: inherit;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 125%;
 }
 
 /* the page container is body*/
@@ -57,6 +63,15 @@ nav>h1 {
     font-weight: 600;
 }
 
+.light-blue {
+    color: #04aeda;
+    font-weight: 390;
+}
+
+.p-bold {
+    font-weight: 600;
+}
+
 .color-red {
     color: red;
     font-weight: 600;
@@ -85,8 +100,9 @@ main {
 }
 
 .button {
-    display: inline-block;
+    display: block;
     color: #ffffff;
+    font-weight: 500;
     padding: 8px;
     border-radius: 5px;
     box-shadow: 3px 3px 2px #725d5d8f;
@@ -135,14 +151,15 @@ section {
 
 .header-main-section,
 .home-dns,
-.reach-us-area {
+.reach-us-area,
+.html-css-js {
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
 
 .header-main-section {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .home-dns {
@@ -157,11 +174,17 @@ small {
     color: #504b4b;
 }
 
+.contact-info small:nth-last-of-type(1) {
+    position: relative;
+    bottom: 6px;
+}
+
 .phone-number {
     font-size: 28px;
     font-weight: 600;
     color: #04aeda;
-    margin: -3px;
+    margin: 0;
+    line-height: normal;
 }
 
 h2 {
@@ -169,4 +192,73 @@ h2 {
     font-weight: 600;
     color: #306DA3;
     margin: 10px 0;
+}
+
+ul,
+ol {
+    margin-left: 40px;
+}
+
+.client-server {
+    width: 50%;
+    display: block;
+    margin: 14px auto;
+}
+
+.htmlcssjs-img {
+    width: 20%;
+    margin: 10px;
+}
+
+.html-css-js {
+    margin-top: 25px;
+    padding: 5px;
+    border: 5px solid #04aeda;
+    box-shadow: 2px 3px 4px #504b4b;
+}
+
+/* the aside card */
+.aside-card {
+    margin: 30px 0;
+    background: url("images/ad_background.png");
+    padding: 35px 5px;
+    border-radius: 2px;
+    box-shadow: 2px 3px 4px #504b4b;
+}
+
+.ad-background {
+    max-width: 210px;
+}
+
+.card-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0px 2px;
+    text-align: center;
+}
+
+.card-image {
+    width: 35%;
+    display: block;
+    margin: 14px auto;
+}
+
+.card-button {
+    background-color: #04aeda;
+    text-transform: none;
+    width: 85%;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+.icon-next {
+    width: 10px;
+    margin: -4px;
+}
+
+.next-icons-container {
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
 }
