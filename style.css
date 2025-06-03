@@ -28,7 +28,7 @@ body {
     margin: 0 auto;
 }
 
-header {
+.logo-container {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -41,21 +41,19 @@ header {
     width: 82px;
 }
 
-nav {
-    height: 70px;
-    background: linear-gradient(0, #306DA3ff, #306da3ad, #306DA3ff);
-}
-
 h1 {
     font-size: 36px;
     color: #504b4b;
     font-weight: 500;
 }
 
-nav>h1 {
+.title {
+    height: 70px;
+    background: linear-gradient(0, #306DA3ff, #306da3ad, #306DA3ff);
     color: #ffffff;
     font-size: 36px;
     padding: 15px 25px;
+    box-sizing: border-box;
 }
 
 .color-blue {
@@ -254,11 +252,17 @@ ol {
 
 .icon-next {
     width: 10px;
-    margin: -4px;
+}
+
+.learn-more {
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: normal;
 }
 
 .next-icons-container {
-    display: inline-block;
-    position: relative;
-    bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
